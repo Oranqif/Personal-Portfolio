@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thaqif's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--- Header --->
+    <div id="header">
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="header-text">
+            <p>Hello, I am</p>
+            <h1>Muhammad Thaqif Mikail</h1>
+            <p id="header-occupation">Developer & Designer</p>
+        </div>
+    </div>
+    <!--- About --->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div id="about-title">
+                    <h1>About Me</h1>
+                </div>
+                <div>
+                    <div id="about-section-1">
+                        <img id="about-image-1" src="images/marill.png" width="500px">
+                        <div>
+                            <h1 id="about-name">Muhammad Thaqif Mikail <br> Bin Jumat</h1>
+                            <p class="about-text">
+                                <br>
+                                <br>
+                                Hello, I am <b>Muhammad Thaqif Mikail Bin Jumat</b>.<br>
+                                <br>
+                                I would consider myself a developer at heart as<br>
+                                I have a passion in programming and coding.<br>
+                                I know coding languages such as C#, JavaScript<br>
+                                and Python.<br>
+                                <br>
+                                I am currently learning about developing<br>
+                                application for mobile and I am excited for the<br>
+                                day when I will be able to put my knowledge and<br>
+                                skill to the test.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="about-section-2">
+                        <p class="about-text">Before I enrolled in Republic Polytechnic, I was a person who took
+                            interest in coding.
+                            It came from watching YouTube videos ranging from programming in video games to website
+                            designs.
+                            Ever since then, I am hoping to further my studies into Computer Science.
+                            Not only would it be something I like to do but it also helps me get into companies that
+                            specialize in technology regarding computers.<br>
+                            <br>
+                            Other than being a developer, I also like to do designs too.
+                            I thought that it is neat that I am able to express my creativity and transfer my
+                            imagination in my brain to my work in the real world.
+                            Although, I treat it more of a hobby than an actual skill. All of my designs were inspired
+                            by other designers' works.<br>
+                            <br>
+                            Enough about my skills and knowledge, what about me personally?
+                            I tend to usually be introverted but I can get along with anybody especially in a team
+                            setting.
+                            One of my hobbies is playing all different types of video games from survival to RPG.
+                            When I get motivated, I can really focus on what is important to me.
+                            I don't have a favorite food because it is hard to pick one as they all bring different
+                            flavors and experiences to the table.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- Portfolio --->
+    <div id="portfolio">
+        <h1 id="portfolio-title">My Portfolio</h1>
+        <div class="codespace">
+            <div class="codespace-text">
+                <img class="codespace-image" src="images/marill.png" width="500px" />
+                <p> // **Wizard Tower Escape Room**<br>
+                    // Created back in 2024, the Wizard Tower Escape Room is my<br>
+                    // first attempt at creating a 3D game in Unity using C# to<br>
+                    // code in interactions such as inserting a key into a chest to <br>
+                    // open it or rearranging the crystals in the right order to<br>
+                    // progress.<br>
+                    // I had fun creating it and it was educational too because it<br>
+                    // taught me the importance of planning and scheduling. For<br>
+                    // example, before I could get started on designing puzzles, I<br>
+                    // had to model a few of an assets. So I set myself a deadline<br>
+                    // for it, ensuring that I would complete it on time. This<br>
+                    // experience will stick with me even after I graduate from<br>
+                    // Republic Polytechnic.<br>
+                </p>
+            </div>
+        </div>
+        <div class="codespace">
+            <div class="codespace-text">
+                <img class="codespace-image" src="images/marill.png" width="500px" />
+                <p> //                 **Video Game Store Website**<br>
+                    // Created back in 2024, the Video Game Store Website is my<br>
+                    // website I made using the EJS library. EJS allowed me to code<br> 
+                    // in conditions and interactions in HTML. Interactions consist<br> 
+                    // of changing routes, and adding, modifying and removing items<br> 
+                    // from the website. I used other library such as SQL to<br> 
+                    // integrate database into my website so that changes to items<br> 
+                    // are saved even if I restarted the website.<br>
+                    // It was an interesting and educational experience for me<br>
+                    // because I get to see a glimpse in the work and effort needed<br> 
+                    // to create a fully functional website. Through this, I also<br>
+                    // got to learn some neat feature in CSS as I was sprucing up<br>
+                    // my Video Game Store Website.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--- Contact --->
+    <div id="contact">
+        <div id="contact-container">
+            <div id="contact-form">
+                <form>
+                    <label for="name">Full Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Full name"/>
+                    <br>
+                    <label for="email">Email</label> 
+                    <br>
+                    <input type="text" id="email" name="email" placeholder="example@email.com"/>
+                    <br>
+                    <label for="phone">Phone Number</label> 
+                    <br>
+                    <input type="number" id="phone" name="phone" placeholder="00 0000 0000"/>
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea id="message" name="message" placeholder="Any other details you would like to mention or share?" style="width: 500px; height: 300px"></textarea>
+                    <br>
+                    <input type="submit" value="Submit"/>
+                </form>
+            </div>
+            <div id="contact-text">
+                <h1 id="contact-title">Contact Me</h1>
+                <p id="contact-contact">
+                    +(65) 8772 9776<br>
+                    <br>
+                    23008720@myrp.edu.sg<br>
+                    <br>
+                    Singapore, Singapore<br>
+                </p>
+                <p id="contact-contact-text">
+                    If you need a developer like me, I am more than happy to assist you in your endeavour.<br>
+                    <br>
+                    Just fill out the form given, submit it, then I'll respond back to you due in around 2 days time.<br>
+                    <br>
+                    If you have anymore questions about me, you can directly email to me personally.
+                </p>
+            </div>
+        </div>
+        <div id="contact-end">
+        </div>
+    </div>
+</body>
+
+</html>
