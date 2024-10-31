@@ -25,12 +25,12 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
     background-color: #1E1E1E;
 }
 
-.logo {
+#logo {
     width: 30px;
+    margin-left: 10px;
 }
 
 nav ul li {
